@@ -19,7 +19,6 @@
 ## Install
 
 ```sh
-npm install noti-fly
 ```
 
 ## Usage
