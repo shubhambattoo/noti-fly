@@ -16,17 +16,22 @@
 
 ### 🏠 [Homepage](https://github.com/shubhambattoo/noti-fly#readme)
 
+### Demo
+
+[Demo Page](https://noti-fly.surge.sh)
+
 ## Install
 
 ```sh
+npm install noti-fly-component
 ```
 
 ## Usage
 
-Install the package or Download the library from ` dist/noti-fly.js `
+Install the package or Download the library from `dist/noti-fly.js`
 
 In you HTML file include `vue.js` <br>
-Include the  downloaded library and you are good to go
+Include the downloaded library and you are good to go
 
 ```sh
 <script src="https://unpkg.com/vue"></script>
@@ -34,6 +39,7 @@ Include the  downloaded library and you are good to go
 
 <noti-fly showalert=true fixed=true heading="Woah!" msg="I am stuck here"></noti-fly>
 ```
+
 ### Required Inputs
 
 <li> showalert : type boolean, needs to be passed to show or hide the component </li>
@@ -53,14 +59,14 @@ Include the  downloaded library and you are good to go
 <li> msg : type string, if passed is the bottom/meta value in the component </li>
 
 ```sh
-<noti-fly showalert=true type="info" heading="Info" msg="This is some Info"></noti-fly> 
+<noti-fly showalert=true type="info" heading="Info" msg="This is some Info"></noti-fly>
 ```
 
 ## Author
 
 👤 **Shubham Battoo**
 
-* Github: [@shubhambattoo](https://github.com/shubhambattoo)
+- Github: [@shubhambattoo](https://github.com/shubhambattoo)
 
 ## 🤝 Contributing
 
@@ -75,5 +81,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2019 [shubhambattoo](https://github.com/shubhambattoo).<br />
 This project is [MIT](https://github.com/shubhambattoo/noti-fly/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

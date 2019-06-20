@@ -1,8 +1,8 @@
 {
-  "name": "@shubhambatt997/noti-fly",
+  "name": "noti-fly-component",
   "version": "1.0.0",
   "description": "Simple Notification Web Component",
-  "main": "index.js",
+  "main": "dist/noti-fly.js",
   "dependencies": {
   },
   "devDependencies": {
