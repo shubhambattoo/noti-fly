@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vue/cli" : "3.8.4"
+  },
   "scripts": {
     "build" : "vue build --target wc --name noti-fly",
     "serve" : "vue serve app.vue"
