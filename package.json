@@ -1,0 +1,31 @@
+{
+  "name": "@shubhambatt997/noti-fly",
+  "version": "1.0.0",
+  "description": "Simple Notification Web Component",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build" : "vue build --target wc --name noti-fly",
+    "serve" : "vue serve app.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhambattoo/noti-fly.git"
+  },
+  "keywords": [
+    "javascript",
+    "vuejs",
+    "Web Component",
+    "notifications",
+    "notification",
+    "simple"
+  ],
+  "author": "shubhambattoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubhambattoo/noti-fly/issues"
+  },
+  "homepage": "https://github.com/shubhambattoo/noti-fly#readme"
+}
