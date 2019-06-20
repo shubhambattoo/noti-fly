@@ -10,6 +10,9 @@
   <a href="https://github.com/shubhambattoo/noti-fly/blob/master/LICENSE">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
   </a>
+  <a href="https://www.webcomponents.org/element/shubhambattoo/noti-fly-component">
+    <img alt="Web Components" src="https://img.shields.io/badge/webcomponents.org-published-blue.svg">
+  </a>
 </p>
 
 > Simple Notification Web Component
