@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
   </a>
   <a href="https://github.com/shubhambattoo/noti-fly/blob/master/LICENSE">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
+    <img alt="License: ISC" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
   <a href="https://www.webcomponents.org/element/noti-fly-component">
     <img alt="Web Components" src="https://img.shields.io/badge/webcomponents.org-published-blue.svg">
@@ -33,12 +33,12 @@ npm install noti-fly-component
 
 Install the package or Download the library from `dist/noti-fly.js`
 
-In you HTML file include `vue.js` <br>
+In your HTML file include `vue.js` <br>
 Include the downloaded library and you are good to go
 
 ```sh
 <script src="https://unpkg.com/vue"></script>
-<script src="./noti-fly.js"></script>
+<script src="your/path/dist/noti-fly.js"></script>
 
 <noti-fly showalert=true fixed=true heading="Woah!" msg="I am stuck here"></noti-fly>
 ```
