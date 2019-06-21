@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition name="fade" appear>
-      <div class="notification" v-show="showalert" :class="classesObj">
+      <div class="notification" v-show="showalert == 'true'" :class="classesObj">
         <div class="notification__close" @click="showalert = !showalert">&times;</div>
         <div class="notification__head">{{head}}</div>
         <div class="notification__meta">{{meta}}</div>
@@ -14,9 +14,9 @@
 export default {
   name: "noti",
   props: {
-    showalert: Boolean,
+    showalert: String,
     type: String,
-    fixed: Boolean,
+    fixed: String,
     duration: Number,
     heading: String,
     msg: String
@@ -26,7 +26,7 @@ export default {
       types: ["success", "info", "warning", "danger"],
       head: this.heading ? this.heading : "Success",
       meta: this.msg ? this.msg : "Yay! You made it.",
-      sticky: this.fixed ? this.fixed : false
+      sticky: this.fixed == 'true' ? true : false
     };
   },
   computed: {

@@ -10,7 +10,7 @@
   <a href="https://github.com/shubhambattoo/noti-fly/blob/master/LICENSE">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" target="_blank" />
   </a>
-  <a href="https://www.webcomponents.org/element/shubhambattoo/noti-fly-component">
+  <a href="https://www.webcomponents.org/element/noti-fly-component">
     <img alt="Web Components" src="https://img.shields.io/badge/webcomponents.org-published-blue.svg">
   </a>
 </p>
@@ -45,19 +45,19 @@ Include the downloaded library and you are good to go
 
 ### Required Inputs
 
-<li> showalert : type boolean, needs to be passed to show or hide the component </li>
+<li> showalert : type boolean or String with value "true" or "false", needs to be passed to show or hide the component </li>
+
+<li> type : type string, acceptable values = "success", "danger", "info", "warning", advisable to pass, or else takes "success" </li>
 
 ### Optional Inputs
 
-<li> fixed : type boolean, if passed as true, makes it fixed at the bottom centered.  </li>
-
-<li> type : type string, acceptable values = "success", "danger", "info", "warning", advisable to pass, or else takes "success" </li>
+<li> fixed : type boolean or String with value "true" or "false", if passed as true, makes it fixed at the bottom centered.  </li>
 
 ```sh
 <noti-fly type="danger"></noti-fly>
 ```
 
-<li> heading : type string, if passed is the top value in the component or else is like the type for example : if type is success, heading = Success </li>
+<li> heading : type string, if passed is the top value in the component or else is "Success" by default </li>
 
 <li> msg : type string, if passed is the bottom/meta value in the component </li>
 

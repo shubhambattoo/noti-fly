@@ -771,12 +771,12 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: /usr/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3da6f646-vue-loader-template"}!/usr/lib/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/usr/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!/usr/lib/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./app.vue?vue&type=template&id=d85ec4a4&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('transition',{attrs:{"name":"fade","appear":""}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.showalert),expression:"showalert"}],staticClass:"notification",class:_vm.classesObj},[_c('div',{staticClass:"notification__close",on:{"click":function($event){_vm.showalert = !_vm.showalert}}},[_vm._v("×")]),_c('div',{staticClass:"notification__head"},[_vm._v(_vm._s(_vm.head))]),_c('div',{staticClass:"notification__meta"},[_vm._v(_vm._s(_vm.meta))])])])],1)}
+// CONCATENATED MODULE: /usr/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3da6f646-vue-loader-template"}!/usr/lib/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/usr/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!/usr/lib/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./app.vue?vue&type=template&id=a4ccf60c&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('transition',{attrs:{"name":"fade","appear":""}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.showalert == 'true'),expression:"showalert == 'true'"}],staticClass:"notification",class:_vm.classesObj},[_c('div',{staticClass:"notification__close",on:{"click":function($event){_vm.showalert = !_vm.showalert}}},[_vm._v("×")]),_c('div',{staticClass:"notification__head"},[_vm._v(_vm._s(_vm.head))]),_c('div',{staticClass:"notification__meta"},[_vm._v(_vm._s(_vm.meta))])])])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./app.vue?vue&type=template&id=d85ec4a4&shadow
+// CONCATENATED MODULE: ./app.vue?vue&type=template&id=a4ccf60c&shadow
 
 // CONCATENATED MODULE: /usr/lib/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!/usr/lib/node_modules/@vue/cli-service-global/node_modules/babel-loader/lib??ref--12-1!/usr/lib/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!/usr/lib/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./app.vue?vue&type=script&lang=js&shadow
 //
@@ -794,9 +794,9 @@ var staticRenderFns = []
 /* harmony default export */ var lib_vue_loader_options_appvue_type_script_lang_js_shadow = ({
   name: "noti",
   props: {
-    showalert: Boolean,
+    showalert: String,
     type: String,
-    fixed: Boolean,
+    fixed: String,
     duration: Number,
     heading: String,
     msg: String
@@ -807,7 +807,7 @@ var staticRenderFns = []
       types: ["success", "info", "warning", "danger"],
       head: this.heading ? this.heading : "Success",
       meta: this.msg ? this.msg : "Yay! You made it.",
-      sticky: this.fixed ? this.fixed : false
+      sticky: this.fixed == 'true' ? true : false
     };
   },
 
