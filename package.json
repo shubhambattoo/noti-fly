@@ -6,7 +6,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@vue/cli" : "3.9.3",
+    "@vue/cli" : "3.10.0",
     "@vue/cli-service": "3.10.0"
   },
   "scripts": {
