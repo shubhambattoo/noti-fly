@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@vue/cli" : "3.11.0",
-    "@vue/cli-service": "3.10.0"
+    "@vue/cli-service": "3.11.0"
   },
   "scripts": {
     "build" : "vue build --target wc --name noti-fly",
